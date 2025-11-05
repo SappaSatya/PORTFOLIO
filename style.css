@@ -583,7 +583,7 @@ main, section {
 
 .project-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 12px rgba(187, 181, 181, 0.458);
 }
 
 .project-card img {
@@ -635,7 +635,7 @@ main, section {
 
 .certificate-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 12px rgba(187, 181, 181, 0.458);
 }
 
 .certificate-card img {
@@ -820,7 +820,7 @@ color: #4a4a4a;
 }
 
 .experience-card {
-  background-color: #181818;
+  background-color: #ffffff89;
   border-radius: 12px;
   padding: 24px;
   display: flex;
