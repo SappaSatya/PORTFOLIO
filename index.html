@@ -307,7 +307,16 @@
     AOS.init({ duration: 800, once: true });
   </script>
 
-
+  <!-- Contact Form -->
+  <form name="contact-form" method="POST" data-netlify="true" action="/success.html">
+    <input type="hidden" name="form-name" value="contact-form" />
+    
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="email" placeholder="Your email" required />
+    <textarea name="message" placeholder="Your message" required></textarea>
+    
+    <button type="submit">Send</button>
+  </form>
  
 
 </body>
