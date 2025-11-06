@@ -911,7 +911,7 @@ color: #4a4a4a;
 
 
 .footer-middle {
-  text-align: middle;
+  text-align:center;
   flex: 1;
   min-width: 250px;
   font-size: 0.9rem;
