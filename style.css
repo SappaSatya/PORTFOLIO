@@ -909,38 +909,9 @@ color: #4a4a4a;
   align-items: flex-start;
 }
 
-.footer-left {
-  flex: 1;
-  min-width: 250px;
-}
 
-.footer-left h3 {
-  color: #ff4444;
-  margin-bottom: 10px;
-}
-
-.footer-left p {
-  margin: 4px 0;
-  font-size: 0.95rem;
-}
-
-.footer-icons {
-  margin-top: 10px;
-}
-
-.footer-icons a {
-  color: #eee;
-  margin-right: 10px;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
-
-.footer-icons a:hover {
-  color: #ff4444;
-}
-
-.footer-right {
-  text-align: right;
+.footer-middle {
+  text-align: middle;
   flex: 1;
   min-width: 250px;
   font-size: 0.9rem;
