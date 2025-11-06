@@ -563,6 +563,18 @@ main, section {
   background-color: #c1121f;
 }
 
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 1 1 100%;
+  }
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-container {
