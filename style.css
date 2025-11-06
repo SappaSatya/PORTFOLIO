@@ -17,6 +17,26 @@ body {
   line-height: 1.4;
 }
 
+.resume-download-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #4169E1;  /* Royal Blue */
+  color: #fff;
+  font-size: 24px;
+  padding: 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-download-btn:hover {
+  background-color: #365ac0; /* Slightly darker royal blue */
+}
+
+
 /* Container */
 .container {
   width: 90%;
