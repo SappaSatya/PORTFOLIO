@@ -330,7 +330,7 @@ main, section {
 
 .section-header h2 {
   font-size: 32px;
-  color: #00ffcc;
+  color: #ff3c41; /* 🔴 Red highlight */
   margin-bottom: 10px;
 }
 
@@ -352,17 +352,17 @@ main, section {
   border: 1px solid #222;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 0 10px rgba(0,255,204,0.1);
+  box-shadow: 0 0 10px rgba(255, 60, 65, 0.1); /* 🔴 Red glow */
   transition: transform 0.2s;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(0,255,204,0.2);
+  box-shadow: 0 0 15px rgba(255, 60, 65, 0.25); /* 🔴 Stronger red glow */
 }
 
 .skill-card h3 {
-  color: #00ffcc;
+  color: #ff3c41; /* 🔴 Red heading */
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -371,6 +371,7 @@ main, section {
   font-size: 14px;
   color: #ccc;
 }
+
 
 /* Certifications */
 .cert-section {
