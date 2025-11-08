@@ -446,83 +446,106 @@ main, section {
 
 
 /* Publication Card - like experience but with image */
+/* Wrapper card */
 .publication-card {
-  max-width: 850px;
-  margin: 0 auto 2rem auto;
-  background-color: #111;
-  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  background-color: #141414;
+  border: 1px solid #222;
+  border-radius: 16px;
   display: flex;
   flex-direction: row;
-  padding: 20px;
-  gap: 20px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  padding: 24px;
+  gap: 24px;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 28px rgba(255, 77, 77, 0.15);
 }
 
 /* Image styling */
 .publication-img {
-  width: 200px;
+  width: 220px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   object-fit: contain;
+  box-shadow: 0 0 12px rgba(255, 77, 77, 0.1);
 }
 
-/* Content beside image */
+/* Right content */
 .publication-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* Content text styles */
+/* Title */
 .pub-title {
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: #ff4d4d;
   margin-bottom: 6px;
 }
 
+/* Journal or Conference */
 .pub-journal {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #aaa;
   margin-bottom: 10px;
 }
 
+/* Description */
 .pub-desc {
-  font-size: 0.85rem;
-  color: #eee;
+  font-size: 0.9rem;
+  color: #ddd;
+  line-height: 1.6;
   margin-bottom: 12px;
-  line-height: 1.5;
 }
 
+/* Skill Tags */
 .pub-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
 .pub-tags span {
-  background-color: #e53935;
-  color: white;
-  padding: 4px 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 5px 12px;
   font-size: 0.75rem;
-  border-radius: 20px;
+  border-radius: 16px;
+  font-weight: 500;
+  box-shadow: 0 0 6px rgba(255, 77, 77, 0.2);
+  transition: background 0.3s ease;
 }
+
+.pub-tags span:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Mobile-friendly adjustments */
 @media (max-width: 768px) {
   .publication-card {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
   }
 
   .publication-img {
-    width: 80%;
+    width: 85%;
   }
 
   .publication-content {
     align-items: center;
   }
 }
-
 
 /* Contact Section */
 .contact-section {
