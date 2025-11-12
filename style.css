@@ -999,10 +999,10 @@ color: #4a4a4a;
 
 .skill-icon {
   width: 100%;
-  max-width: 180px;
+  max-width: 260px;
   height: auto;
   margin-bottom: 18px;
-  border-radius: 8px;
+  border-radius: 3px;
   object-fit: contain;
 }
 
