@@ -984,6 +984,57 @@ color: #4a4a4a;
   display: inline-block;
 }
 
+.skills-section {
+  padding: 80px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* Each skill card */
+.skills-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+  border-left: 4px solid #e53935;
+}
+
+.skills-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(229, 57, 53, 0.2);
+}
+
+.skills-card .card-title {
+  color: #e53935;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.skills-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .skills-card {
+    text-align: center;
+  }
+}
+
+
+
+
 .icon-inline {
   width: 18px;
   height: 18px;
